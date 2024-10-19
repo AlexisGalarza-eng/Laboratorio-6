@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background-color: #004d99; 
+    color: white;
+}
+h2 {
+    color: #004d99;
+    margin-top: 20px;
+}
+.row img {
+    margin-bottom: 20px;
+}
+.card {
+    transition: transform 0.2s; 
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.btn-info {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-info:hover {
+    background-color: #0056b3;
+    border-color: #0056b3; 
+}

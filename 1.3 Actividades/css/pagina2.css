@@ -1,0 +1,39 @@
+
+.carousel-item img {
+    height: 1200px; 
+}
+.card-custom {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%; 
+}
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.card-custom img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover; 
+}
+.card-body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+.card-title {
+    font-weight: bold;
+}
+.card-text {
+    font-size: 0.9rem;
+    flex-grow: 1;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+footer {
+    background-color: #f8f9fa;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.carousel {
+    margin-bottom: 40px;
+}
+.card {
+    transition: transform 0.2s;
+    border: none; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+        /* Estilos para el tema oscuro */
+        .dark-theme {
+            background-color: #343a40;
+            color: #f8f9fa;
+        }
+        /* Estilo para el botón de tema */
+        #toggleTheme {
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+footer {
+    background-color: #f8f9fa;
+ }
